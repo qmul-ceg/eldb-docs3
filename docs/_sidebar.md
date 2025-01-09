@@ -1,4 +1,5 @@
-- [Home](README.md)
+<!-- docs/_sidebar.md -->
+
 - Connecting to CEG-VPN:
   - [Overview](Connect_Overview.md)
   - [CEG-VPN Setup](Connect_CEG-VPN_Setup.md)
@@ -17,5 +18,6 @@
   - [Lookup Tables](Data_Lookup.md)
   - [CORE](Data_Core.md)
   - [Registers](Data_Registers.md)
-- Website Information:
-  - [Website Info](Website_Types of Website.md)
+- Other Information:
+  - [Website]('Website_Types of Website'.md)
+
