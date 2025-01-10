@@ -1,11 +1,7 @@
 # Overview
 The East London Database is a series of annual databases containing data from the 1<sup>st</sup> April for patients registered with GP practices on that date. Full details of the included tables, the build business logic and commentary on how the data can be used are provided in a ‘Data and Schema’ document for the specific database. This guide provides information for connecting to the ELDB Server and to specific ELDB databases in order to conduct analyses.
 
-As shown in the following diagram:
-
-<figure markdown="span">
-![ELDB Connection](img/Connecting/Overview_01.jpg){align="center"}
-</figure>
+![ELDB Connection](/img/Connecting/Overview_01.jpg)
 
 ## ELDB Server
 The ELDB databases sit on the ELDB Server (Microsoft SQL Server), which is accessed by a username and password. This will be entered into the application you are using to connect to the server in order to query the data. See below.
@@ -48,6 +44,6 @@ The process for connecting to ELDB should be understood therefore as 4 steps:
 4. Connect to an ELDB database
     1. Open application and enter username and password as required
 
-![4 Steps](img/Connecting/Overview_02.jpg)
+![4 Steps](/img/Connecting/Overview_02.jpg)
 
 This process can require a lot of software installation. As CEG does not manage or know about user’s particular hardware, network or other installed software, there is a limit to the amount of support CEG can provide for this process or for resolving problems. In many cases, installation issues will need to be handle by the device’s user or administrator. CEG can help with connection issues to the VPN and to the ELDB server.
