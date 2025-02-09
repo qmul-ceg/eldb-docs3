@@ -4,19 +4,39 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-   <meta name="description" content="">
-   <title></title>
+   <meta name="description" content="CEG ELDB Documentation">
+   <title>CEG ELDB</title>
 
    <!-- Themes (light + dark) -->
    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
    <!-- Custom theme stylesheet -->
-   <link rel="stylesheet" href="/scr/theme-custom.css">
+   /* <link rel="stylesheet" href="/scr/theme-custom.css"> */
 
    <!-- Custom Styles -->
    <style>
      :root {
+		--base-font-family: "Source Sans 3", Ariel, sans-serif;
+		--base-font-size: 16px;
+		--base-line-height: 1.5;
+		--code-font-family: Source Code Pro, Consolas, "Courier New", Courier, monospace;
+		--content-max-width: 75em;
+		--heading-h1-color: #21376A; /* QMUL Blue */
+		
+		--sidebar-name-color: #21376A; /* QMUL Blue */
+		--sidebar-name-font-weight: bold;
+		--sidebar-nav-strong-font-weight: bold;
+		--sidebar-nav-strong-font-color: var(--sidebar-name-color);		
+		--sidebar-nav-link-color--active: #7B0E72; /* QMUL Purple */
+		--sidebar-nav-link-color--hover: var(--sidebar-nav-link-color--active);
+		--sidebar-nav-link-border-color--active: #1F7791;
+		--sidebar-nav-link-border-style: solid;
+		--sidebar-nav-pagelink-background-active: #1F7791;
+		--sidebar-nav-link-font-weight--active: bold;
+		--sidebar-nav-link-text-decoration--active: ;
+		--sidebar-nav-link-text-decoration--hover: ;	
+		
        /* --theme-hue: 325; */
      }
    </style>
@@ -28,6 +48,8 @@
      // Docsify Configuration
      window.$docsify = {
        name: 'CEG ELDB',
+	   logo: '/img/logos/CEG_logo_white3.png',
+	   
       // Sidebar Configuration
       auto2top: true,
       loadSidebar: true,
